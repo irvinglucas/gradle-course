@@ -1,0 +1,28 @@
+# Gradle files
+.gradle/
+build/
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.tgz
+*.tar
+*.7z
+
+# IntelliJ IDEA files
+.idea/
+*.iws
+*.iml
+*.ipr
+*.idv
+*.idpk
+*.idm
+*.iws
+*.iml
+*.ipr
+*.idv
+*.idpk
+*.idm
+*.idea/workspace.xml
+*.idea/dataStorage.xml
