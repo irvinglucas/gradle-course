@@ -1,5 +1,6 @@
 # Gradle files
 .gradle/*
+gradle/plugins/.gradle/
 gradle/plugins/java-plugins/build/
 build/
 *.jar
