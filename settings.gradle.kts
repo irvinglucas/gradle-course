@@ -3,7 +3,6 @@ rootProject.name = "Gradle Course Project"
 
 pluginManagement {
     repositories.gradlePluginPortal() // for general use plugins
-    repositories.google() // if you're building an android app.
 
     includeBuild("gradle/plugins")
 }
