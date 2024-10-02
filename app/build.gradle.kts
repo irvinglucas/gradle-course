@@ -3,7 +3,8 @@ plugins {
 }
 
 application {
-    mainClass.set("com.example.MyApplication")
+    applicationName = "gradle-course-app"
+    mainClass = "com.example.MyApplication"
 }
 
 dependencies {
