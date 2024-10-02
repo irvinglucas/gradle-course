@@ -24,3 +24,10 @@ tasks.register<JarCount>("countJars") {
 
     countFile.set(layout.buildDirectory.file("generated/count.txt"))
 }
+
+tasks.register("buildAll") {
+    description = "This task creates a whole new build lifecycle."
+
+    dependsOn(tasks.build)
+    dependsOn(tasks.named("countJars"))
+}
