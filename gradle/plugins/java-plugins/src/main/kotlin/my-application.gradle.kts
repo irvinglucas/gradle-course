@@ -25,8 +25,12 @@ tasks.register<JarCount>("countJars") {
     countFile.set(layout.buildDirectory.file("generated/count.txt"))
 }
 
+/**
+ * This is a task without a type, consequently without an action, so this is a lifecycle task.
+ */
 tasks.register("buildAll") {
-    description = "This task creates a whole new build lifecycle."
+    group = "Custom Build"
+    description = "This task creates a whole new build lifecycle task."
 
     dependsOn(tasks.build)
     dependsOn(tasks.named("countJars"))

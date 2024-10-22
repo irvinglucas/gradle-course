@@ -32,16 +32,16 @@ allprojects.forEach { project ->
     }
 }
 
-tasks.compileJava {
-//    options.encoding = "UTF-8"
-}
-
-tasks.compileTestJava {
-//    options.encoding = "UTF-8"
-}
-
-tasks.test {
-}
-
-tasks.javadoc {
-}
+//tasks.compileJava {
+////    options.encoding = "UTF-8"
+//}
+//
+//tasks.compileTestJava {
+////    options.encoding = "UTF-8"
+//}
+//
+//tasks.test {
+//}
+//
+//tasks.javadoc {
+//}
